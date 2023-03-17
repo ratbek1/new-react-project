@@ -1,0 +1,114 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+}
+/*HEADER*/
+#header{
+  background-color: #070707;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 27px 0;
+}
+.nav a{
+  margin: 0 40px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  transition: 800ms;
+}
+.nav a:hover{
+  border-bottom: white 2px solid;
+  font-size: 18px;
+  color: aquamarine;
+}
+.btn{
+  font-weight: 400;
+  font-size: 14px;
+  color: #40AB7E;
+  padding: 10px 48px;
+  background: transparent;
+  border: 2px solid #40AB7E;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.btn1{
+  font-weight: 400;
+  font-size: 14px;
+  color: #070707;
+  background: #7CBA72;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.nav{
+  padding-left: 180px;
+}
+
+
+/*HERO*/
+.title{
+  font-weight: 400;
+  font-size: 45px;
+  color: #000000;
+  padding: 29px 0 16px 0;
+}
+.Name{
+  font-weight: 400;
+  font-size: 35px;
+  color: #000000;
+}
+.ingredients{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  padding: 10px 0 10px 40px;
+}
+.instruction{
+  font-weight: 400;
+  font-size: 35px;
+  color: #000000;
+}
+.steps{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #000000;
+  width: 26%;
+  padding: 10px 0 50px 40px;
+}
+
+/*FOOTER*/
+#footer{
+  margin-top: 75px;
+  background-color: #404149;
+}
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.Footer-nevis{
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.footer-studio{
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
