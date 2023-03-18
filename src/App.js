@@ -8,6 +8,7 @@ import Hero from "./components/Hero";
 import Blog from "./components/Blog";
 import Support from "./components/Support";
 import Footer from "./components/Footer";
+import Sign from "./components/Sign";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path={"/about"} element={<About/>}/>
             <Route path={"/blog"} element={<Blog/>}/>
             <Route path={"/support"} element={<Support/>}/>
+            <Route path={"/signin"} element={<Sign/>}/>
         </Routes>
         <Footer/>
     </div>
